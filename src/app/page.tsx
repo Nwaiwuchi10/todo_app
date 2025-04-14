@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Todo App Landing Page</title>
+        <title>Todo App Landing Page </title>
       </Head>
       <main className="min-h-screen p-8 bg-gray-100">
         <div className="max-w-4xl mx-auto bg-white p-8 rounded shadow-md">
