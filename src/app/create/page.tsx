@@ -1,7 +1,7 @@
 "use client";
 import TodoForm from "@/components/TodoForm";
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
+
 const page = () => {
   const [refresh, setRefresh] = useState(false);
   return (
