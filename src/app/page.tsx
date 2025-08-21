@@ -1,12 +1,12 @@
 "use client";
-import TodoForm from "@/components/TodoForm";
+
 import TodoList from "@/components/TodoList";
 import Head from "next/head";
 
 import { useState } from "react";
 
 export default function Home() {
-  const [refresh, setRefresh] = useState(false);
+  const [refresh] = useState(false);
 
   return (
     <>
@@ -18,7 +18,7 @@ export default function Home() {
           <h1 className="text-3xl font-bold mb-4 text-center">
             Project Manager
           </h1>
-          {/* <TodoForm onCreated={() => setRefresh(!refresh)} /> */}
+
           <TodoList key={refresh.toString()} />
         </div>
       </main>
